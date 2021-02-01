@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">A peek into what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Hi! My name is Elizabeth Sotomayor. I am an aspiring full-stack web developer and Internet enthusiast (pre-Facebook, naturally). I want to build websites that people will love and that make a statement.</p>
+        <p>In my spare time I enjoy yoga and other physical activities, reading, and playing music (lyre, thumb piano).</p>
+        <p>Here is where I will share my journey towards learning how to code, and lots more. I hope you'll stick around!</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
